@@ -169,3 +169,18 @@ header img {
     background-attachment: fixed;
     background-size: 30%;
 }
+
+ /* ---------------Serviços--------------- */
+
+ #servicos{
+    margin-bottom: 120px;
+ }
+
+ #servicos.titulo{
+    justify-content: center;
+    margin-bottom: 55px;
+ }
+
+ #servicos h2{
+    margin-left: 5px;
+ }
