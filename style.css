@@ -170,7 +170,7 @@ header img {
     background-size: 30%;
 }
 
-/* ---------------Serviços--------------- */
+/* ---------------SERVIÇOS--------------- */
 
 #servicos {
     margin-bottom: 120px;
@@ -193,13 +193,13 @@ header img {
     position: relative;
 }
 
-.linha-roxa{
-height: 250px;
-width: 100vw;
-background: linear-gradient(0deg, rgba(36, 0, 105,1)0% , rgba(71, 0, 207, 1) 100%);
-position: absolute;
-z-index: -1;
-top: calc(50% - 125px);
+.linha-roxa {
+    height: 250px;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(36, 0, 105, 1)0%, rgba(71, 0, 207, 1) 100%);
+    position: absolute;
+    z-index: -1;
+    top: calc(50% - 125px);
 }
 
 #servicos .card {
@@ -217,7 +217,7 @@ top: calc(50% - 125px);
     justify-content: center;
 }
 
-#servicos .card h3{
+#servicos .card h3 {
     font-size: 24px;
     margin: 5px 0 30px;
     color: var(--roxo-pixelV);
@@ -225,26 +225,50 @@ top: calc(50% - 125px);
     text-align: center;
 }
 
-#servicos .card p{
-font-family: "Recursive", sans-linear;
-font-size: 18px;
-margin-bottom: 20px;
-line-height: 1.5;
+#servicos .card p {
+    font-family: "Recursive", sans-linear;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
 }
 
-#servicos .card svg{
-color: var(--roxo-pixelV);
-height: 75px;
+#servicos .card svg {
+    color: var(--roxo-pixelV);
+    height: 75px;
 }
 
-#servicos .card:hover{
+#servicos .card:hover {
     border: solid 3px var(--verde-pixelV);
 }
 
-#servicos .card:hover svg{
-fill: var(--verde-pixelV);
+#servicos .card:hover svg {
+    fill: var(--verde-pixelV);
 }
 
-#servicos .card:hover h3{
+#servicos .card:hover h3 {
     color: var(--verde-pixelV);
+}
+
+/* ---------------CASES--------------- */
+
+#cases h2 {
+    margin-right: 5px;
+}
+
+#cases {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+
+#cases img{
+height: 300px;
+border-radius: 40px;
+}
+
+#meuCarrossel{
+    max-width: 1170px;
+    width: 90%;
 }
