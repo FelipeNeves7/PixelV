@@ -1,7 +1,7 @@
 //BUSCA UM ELEMENTO NO HTML E SALVA EM UMA VARIAVEL
 
 let menu = document.getElementById("menu")
-let IconeBarras = document.getElementById("icone-barras")
+let iconeBarras = document.getElementById("icone-barras")
 let iconeX = document.getElementById("icone-x")
 
 
@@ -40,7 +40,7 @@ onresize = () => {
     menu.classList.remove("menu-fechado")
 
     //MOSTRAR ICONE X 
-    iconeX.style.display = "incline"
+    iconeX.style.display = "inline"
 
     //ESCONDER ICONE BARRAS
     iconeBarras.style.display = "none"
